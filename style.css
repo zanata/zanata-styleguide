@@ -14,10 +14,20 @@ body {
 button.close {
     color: #f00;
 }
+span.greentext.badge {
+  background-color: #fff;
+}
+span.dis.badge {
+  background-color: #fff;
+  color:#546675;
+}
 form i,
 table i,
 .AutoTags h1:after {
     color: #546677;
+}
+.left-form.tablepadding {
+  padding-right: 0;
 }
 #tran > div > p:nth-child(5) {
     margin-bottom: 20px;
@@ -539,6 +549,9 @@ span.transl-text {
 .projmenu ul li a.btn-default.active {
     background-color: #03A6D7;
     color: #fff;
+}
+.left-form.toolbar {
+  padding-right: 0;
 }
 .btn-default.focus,
 .btn-default:focus,
