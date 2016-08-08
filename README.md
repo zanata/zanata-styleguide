@@ -4,7 +4,7 @@ Zanata bootstrap design
 - css + js in /dist folder
 - images in /img folder
 
-*BRANCH proj-landing-proto*
+BRANCH proj-landing-proto
 PROJECT Pages added so far (see proj-landing-proto branch)
 - landing page (for project called Zanata server) [index.html]
 - about [about.html]
@@ -16,7 +16,7 @@ PROJECT Pages added so far (see proj-landing-proto branch)
 - version groups [groups.html]
 - processing panels [index-processing.html]
 
-*BRANCH admin-lang-proto*
+BRANCH admin-lang-proto
 ADMIN LANGUAGES Page (admin-lang.html)
 - no JS - jQuery needs to be replaced with React components
 
