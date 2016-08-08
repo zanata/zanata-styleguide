@@ -164,6 +164,7 @@ h2 span.badge {
     background-color: #546677;
     line-height: 0.9em;
 }
+
 .panel.panel-side {
     background-color: #fff !important;
     border: solid 1px #ddd !important;
@@ -370,6 +371,10 @@ h2 {
 }
 .panel-body {
     padding: 10px;
+}
+
+.show-items {
+  clear:both;
 }
 .dropdown {
     margin-top: 10px;
@@ -798,6 +803,8 @@ ul.col-centered {
         border: none;
         font-weight: 600;
     }
+
+
     .projmenu ul li a.btn-default.active {
         width: 110%;
         text-align: left;
@@ -840,5 +847,8 @@ ul.col-centered {
     .maintainers ul li a {
         word-break: keep-all;
         margin-left: 10px;
+    }
+    .show-items {
+      clear:none !important;
     }
 }
