@@ -4,8 +4,8 @@ Zanata bootstrap design
 - css + js in /dist folder
 - images in /img folder
 
-PROJECT Pages added so far (see proj-landing-proto branch) (content still needs to be added/customised)
-
+*BRANCH proj-landing-proto*
+PROJECT Pages added so far (see proj-landing-proto branch)
 - landing page (for project called Zanata server) [index.html]
 - about [about.html]
 - people [people.html]
@@ -16,13 +16,8 @@ PROJECT Pages added so far (see proj-landing-proto branch) (content still needs 
 - version groups [groups.html]
 - processing panels [index-processing.html]
 
-Fixes not complete yet:
-1. Correct # of items per page + updated pagination
-
-Next pages to be added:
-- explore page
-- profile
-- dashboard
+*BRANCH admin-lang-proto*
+ADMIN LANGUAGES Page (admin-lang.html)
+- no JS - jQuery needs to be replaced with React components
 
 + Bootstrap styleguide: https://github.com/kemie/Style-Guide-Boilerplate-Bootstrap-Edition
-
