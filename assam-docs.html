@@ -16,9 +16,6 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Load c3.css -->
-
-
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
 
@@ -27,7 +24,8 @@
 
 <body>
 
-    <svg style="position: absolute; width: 0; height:0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg style="position: absolute; width: 0; height:0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
             <symbol id="icon-Icon-zanata" viewBox="0 0 32 32">
                 <title>Icon-zanata</title>
@@ -131,153 +129,160 @@
                     <h2><a href="languages.html">Languages</a> <span>></span> Assamese Documents  <span class="badge">3</span></h2>
 
 
-                    <div class="toolbar col-xs-12" role="toolbar">
-                        <div class="search-box col-xs-7 col-sm-7 col-md-7 col-lg-4">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search for...">
-                                <span class="input-group-btn">
-        <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-      </span>
-                            </div>
-                            <!-- /input-group -->
-                        </div>
-                        <!-- /.col-lg-6 -->
-
-                        <div class="sort-items col-xs-4 col-sm-3 col-md-3 col-lg-3">
-                            <select id="ddlList1">
-                                <option value="2">Alphabetical</option>
-                                <option value="1">Last source update</option>
-                            </select>
-
-                        </div>
-                        <!-- /.col-lg-6 -->
-
-                        <div class="show-items col-xs-4 col-sm-3 col-md-2 col-lg-2">
-                            <span>Show</span>
-                            <select id="ddlList2">
-                                <option value="3">10</option>
-                                <option value="1">20</option>
-                                <option value="1">50</option>
-
-                            </select>
-
-
-                        </div>
-                        <!-- /.col-lg-6 -->
-                        <div class="page-count pull-right col-xs-8 col-sm-9 col-md-9 col-lg-3">
-                            <nav aria-label="...">
-                                <ul class="pagination pull-right">
-                                    <li class="disabled">
-                                        <span>
-        <span aria-hidden="true">«</span>
-                                        </span>
-                                    </li>
-                                    <li class="active">
-                                        <span>1 <span class="sr-only">(current)</span></span>
-                                    </li>
-                                    <li><a href="#">2 <span class="sr-only"></span></a>
-                                    </li>
-
-                                    <li><a href="#">3 <span class="sr-only"></span></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" aria-label="Next">
-                                            <span aria-hidden="true">»</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-
                     <div class="col-xs-12">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Document</th>
-                                    <th>Translated</th>
-                                    <th>Words left</th>
-                                    <th>Last modified</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><a href="">Moby_Dick.txt</a>
-                                    </td>
-                                    <td><span class="transl-text">60%</span>
-                                    </td>
-                                    <td>327987</td>
-                                    <td>Yesterday
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="prog" colspan="4">
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-info" style="width: 10%">
-                                                <span class="sr-only">35% Complete (success)</span>
+
+                        <div class="left-form toolbar col-xs-12" role="toolbar">
+                            <div class="search-box col-xs-6 col-sm-8 col-md-5 col-lg-4">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search Assamese documents">
+                                    <span class="input-group-btn">
+                                      <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                                      </span>
+                                </div>
+                                <!-- /input-group -->
+                            </div>
+                            <!-- /.col-lg-6 -->
+
+                            <div class="sort-items col-xs-3-pull-right col-sm-3-pull-right col-md-2">
+                                <select class="pull-right" id="ddlList1">
+                                    <option value="2">Alphabetical</option>
+                                    <option value="1">Last source update</option>
+                                </select>
+
+                            </div>
+                            <!-- /.col-lg-6 -->
+
+                            <div class="show-items col-xs-3 col-sm-3 col-md-2 col-lg-2" style="
+                            ">
+                                <span>Show</span>
+                                <select id="ddlList2">
+                                    <option value="1">10</option>
+
+                                    <option value="4">100</option>
+                                    <option value="2">20</option>
+
+                                    <option value="3">50</option>
+
+
+                                </select>
+
+
+                            </div>
+                            <!-- /.col-lg-6 -->
+                            <div class="page-count pull-right col-xs-8 col-sm-8 col-md-3 col-lg-3">
+                                <nav aria-label="...">
+                                    <ul class="pagination pull-right">
+                                        <li class="disabled">
+                                            <span>
+                                      <span aria-hidden="true">«</span>
+                                            </span>
+                                        </li>
+                                        <li class="active">
+                                            <span>1 <span class="sr-only">(current)</span></span>
+                                        </li>
+                                        <li><a href="#">2 <span class="sr-only"></span></a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="#" aria-label="Next">
+                                                <span aria-hidden="true">»</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-12">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Document</th>
+                                        <th>Translated</th>
+                                        <th>Words left</th>
+                                        <th>Last modified</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="">Moby_Dick.txt</a>
+                                        </td>
+                                        <td><span class="transl-text">60%</span>
+                                        </td>
+                                        <td>327987</td>
+                                        <td>Yesterday
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="prog" colspan="4">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info" style="width: 10%">
+                                                    <span class="sr-only">35% Complete (success)</span>
+                                                </div>
+                                                <div class="progress-bar progress-bar-success" style="width: 50%">
+                                                    <span class="sr-only">20% Complete (warning)</span>
+                                                </div>
+                                                <div class="progress-bar progress-bar-warning" style="width: 2%">
+                                                    <span class="sr-only">10% Complete (danger)</span>
+                                                </div>
                                             </div>
-                                            <div class="progress-bar progress-bar-success" style="width: 50%">
-                                                <span class="sr-only">20% Complete (warning)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="">War_of_the_worlds.txt</a>
+                                        </td>
+                                        <td><span class="transl-text">40%</span>
+                                        </td>
+                                        <td>42439</td>
+                                        <td>2 days ago
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="prog" colspan="4">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info" style="width: 35%">
+                                                    <span class="sr-only">35% Complete (success)</span>
+                                                </div>
+                                                <div class="progress-bar progress-bar-success" style="width: 5%">
+                                                    <span class="sr-only">20% Complete (warning)</span>
+                                                </div>
+                                                <div class="progress-bar progress-bar-warning" style="width: 10%">
+                                                    <span class="sr-only">10% Complete (danger)</span>
+                                                </div>
                                             </div>
-                                            <div class="progress-bar progress-bar-warning" style="width: 2%">
-                                                <span class="sr-only">10% Complete (danger)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="">Translate_me.txt</a>
+                                        </td>
+                                        <td><span class="transl-text">5%</span>
+                                        </td>
+                                        <td>1389</td>
+                                        <td>1 day ago
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="prog" colspan="4">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info" style="width: 1%">
+                                                    <span class="sr-only">35% Complete (success)</span>
+                                                </div>
+                                                <div class="progress-bar progress-bar-success" style="width: 4%">
+                                                    <span class="sr-only">20% Complete (warning)</span>
+                                                </div>
+                                                <div class="progress-bar progress-bar-warning" style="width: 20%">
+                                                    <span class="sr-only">10% Complete (danger)</span>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><a href="">War_of_the_worlds.txt</a>
-                                    </td>
-                                    <td><span class="transl-text">40%</span>
-                                    </td>
-                                    <td>42439</td>
-                                    <td>2 days ago
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="prog" colspan="4">
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-info" style="width: 35%">
-                                                <span class="sr-only">35% Complete (success)</span>
-                                            </div>
-                                            <div class="progress-bar progress-bar-success" style="width: 5%">
-                                                <span class="sr-only">20% Complete (warning)</span>
-                                            </div>
-                                            <div class="progress-bar progress-bar-warning" style="width: 10%">
-                                                <span class="sr-only">10% Complete (danger)</span>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><a href="">Translate_me.txt</a>
-                                    </td>
-                                    <td><span class="transl-text">5%</span>
-                                    </td>
-                                    <td>1389</td>
-                                    <td>1 day ago
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="prog" colspan="4">
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-info" style="width: 1%">
-                                                <span class="sr-only">35% Complete (success)</span>
-                                            </div>
-                                            <div class="progress-bar progress-bar-success" style="width: 4%">
-                                                <span class="sr-only">20% Complete (warning)</span>
-                                            </div>
-                                            <div class="progress-bar progress-bar-warning" style="width: 20%">
-                                                <span class="sr-only">10% Complete (danger)</span>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-
 
                 <div class="z-sidebar clearfix col-height col-xs-12 col-sm-2 col-md-1 col-sm-pull-10 col-md-pull-11">
                     <div class="col-centered">

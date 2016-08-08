@@ -164,6 +164,7 @@ h2 span.badge {
     background-color: #546677;
     line-height: 0.9em;
 }
+
 .panel.panel-side {
     background-color: #fff !important;
     border: solid 1px #ddd !important;
@@ -371,6 +372,10 @@ h2 {
 .panel-body {
     padding: 10px;
 }
+
+.show-items {
+  clear:both;
+}
 .dropdown {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -534,6 +539,9 @@ span.transl-text {
 .projmenu ul li a.btn-default.active {
     background-color: #03A6D7;
     color: #fff;
+}
+.left-form.toolbar {
+  padding-right: 0;
 }
 .btn-default.focus,
 .btn-default:focus,
@@ -798,6 +806,8 @@ ul.col-centered {
         border: none;
         font-weight: 600;
     }
+
+
     .projmenu ul li a.btn-default.active {
         width: 110%;
         text-align: left;
@@ -840,5 +850,8 @@ ul.col-centered {
     .maintainers ul li a {
         word-break: keep-all;
         margin-left: 10px;
+    }
+    .show-items {
+      clear:none !important;
     }
 }

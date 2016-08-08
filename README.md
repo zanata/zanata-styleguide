@@ -17,12 +17,5 @@ PROJECT Pages added so far (content still needs to be added/customised)
 - processing panels [index-processing.html]
 
 Fixes not complete yet:
-1. Correct # of items per page + updated pagination
-
-Next pages to be added:
-- explore page
-- profile
-- dashboard
-
+1. Correct # of items per page
 + Bootstrap styleguide: https://github.com/kemie/Style-Guide-Boilerplate-Bootstrap-Edition
-
