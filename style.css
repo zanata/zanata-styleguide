@@ -21,6 +21,20 @@ span.dis.badge {
   background-color: #fff;
   color:#546675;
 }
+span.caret {
+  color:#546675;
+  margin-right:10px;
+}
+
+span.langcode {
+  font-size:0.9em;
+  color:#aaa;
+}
+.tablepadding i.fa.fa-user {
+  font-size:22px;
+  color:#ccc;
+  margin-right:10px;
+}
 form i,
 table i,
 .AutoTags h1:after {
@@ -174,7 +188,10 @@ h2 span.badge {
     background-color: #546677;
     line-height: 0.9em;
 }
-
+td.inline {
+  display: inline-table;
+  width:80px;
+}
 .panel.panel-side {
     background-color: #fff !important;
     border: solid 1px #ddd !important;
@@ -699,40 +716,7 @@ ul.col-centered {
     font-size: 14px;
     font-weight: 600;
 }
-/* STATS PANEL
 
-.stats .panel-body {
-  padding:10px;
-}
-.stats i {
-    color: #54667a;
-    font-size: 1.1em;
-    margin-right: 10px;
-}
-.stats img {
-    max-width: 100%;
-}
-
-.stats #activestat {
-    margin-bottom: 30px;
-    font-size: 14px;
-    padding-left: 10px;
-}
-.stats h4 {
-    padding-left: 10px;
-}
-.stats table {
-    width: 96%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.stats table img {
-    width: 24px;
-    height: 24px;
-    border: solid 1px #ddd;
-    margin-right: 10px;
-}
-*/
 /* CONTENT */
 
 .contentx {
@@ -801,10 +785,10 @@ ul.col-centered {
         display: inline-block;
         padding: 1em;
     }
-    .z-sidebar ul {
-        margin-right: auto;
+    .z-sidebar .col-centered ul {
+        width: 320px;
         margin-left: auto;
-        width: 380px;
+        margin-right: auto;
     }
     .projmenu ul li a.btn-default {
         padding: 8px;
