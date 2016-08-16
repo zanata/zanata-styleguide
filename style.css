@@ -14,10 +14,34 @@ body {
 button.close {
     color: #f00;
 }
+span.greentext.badge {
+  background-color: #fff;
+}
+span.dis.badge {
+  background-color: #fff;
+  color:#546675;
+}
+span.caret {
+  color:#546675;
+  margin-right:10px;
+}
+
+span.langcode {
+  font-size:0.9em;
+  color:#aaa;
+}
+.tablepadding i.fa.fa-user {
+  font-size:22px;
+  color:#ccc;
+  margin-right:10px;
+}
 form i,
 table i,
 .AutoTags h1:after {
     color: #546677;
+}
+.left-form.tablepadding {
+  padding-right: 0;
 }
 #tran > div > p:nth-child(5) {
     margin-bottom: 20px;
@@ -141,91 +165,21 @@ a:hover {
     color: #03A6D7;
     text-decoration: none;
 }
-.tabs-left {
-    border-right: none;
-}
-.nav-tabs {
-    border-bottom: none;
-}
-/* custom inclusion of right, left and below tabs */
 
-.tabs-right > .nav-tabs {
-    border-bottom: 0;
-}
-.tab-content > .tab-pane,
-.pill-content > .pill-pane {
-    display: none;
-}
-.tab-content > .active,
-.pill-content > .active {
-    display: block;
-}
 h2 span.badge {
     background-color: #546677;
     line-height: 0.9em;
 }
-
+td.inline {
+  display: inline-table;
+  width:80px;
+}
 .panel.panel-side {
     background-color: #fff !important;
     border: solid 1px #ddd !important;
     padding: 8px;
 }
-.tabbable {
-    margin-top: 20px;
-    padding-left: 0 !important;
-}
-.tab-content {
-    padding-left: 20px;
-}
-.tabs-left .col-md-3,
-.tabs-left .col-xs-2,
-.tabs-left .col-md-9,
-.tabs-left .col-xs-9 {
-    padding-right: 0;
-}
-.tab-pane h3 {
-    margin-top: 10px;
-}
-.tabs-left > .nav-tabs > li {
-    float: none;
-}
-.tabs-left > .nav-tabs > li > a {
-    margin-right: 0;
-    margin-bottom: 3px;
-}
-.tabs-left > .nav-tabs {
-    float: left;
-    margin-right: 0;
-    border-right: 1px solid #ddd;
-}
-.tabs-left > .nav-tabs > li > a {
-    margin-right: -1px;
-    -webkit-border-radius: 4px 0 0 4px;
-    -moz-border-radius: 4px 0 0 4px;
-    border-radius: 4px 0 0 4px;
-    font-size: 16px;
-}
-.tabs-left > .nav-tabs > li > a span {
-    vertical-align: text-bottom;
-    padding-left: 4px;
-}
-.tabs-left .nav-tabs li a span.heightfix {
-    vertical-align: 4px;
-}
-.tabs-left > .nav-tabs > li > a > i,
-.tabs-left > .nav-tabs > li > a > svg {
-    font-size: 22px;
-}
-.tabs-left > .nav-tabs > li > a:hover,
-.tabs-left > .nav-tabs > li > a:focus {
-    border-color: #eeeeee #dddddd #eeeeee #eeeeee;
-}
-.tabs-left > .nav-tabs .active > a,
-.tabs-left > .nav-tabs .active > a:hover,
-.tabs-left > .nav-tabs .active > a:focus {
-    border-color: #ddd transparent #ddd #ddd;
-    *border-right-color: #ffffff;
-}
+
 table td {
     font-size: 16px;
 }
@@ -689,40 +643,7 @@ ul.col-centered {
     font-size: 14px;
     font-weight: 600;
 }
-/* STATS PANEL
 
-.stats .panel-body {
-  padding:10px;
-}
-.stats i {
-    color: #54667a;
-    font-size: 1.1em;
-    margin-right: 10px;
-}
-.stats img {
-    max-width: 100%;
-}
-
-.stats #activestat {
-    margin-bottom: 30px;
-    font-size: 14px;
-    padding-left: 10px;
-}
-.stats h4 {
-    padding-left: 10px;
-}
-.stats table {
-    width: 96%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.stats table img {
-    width: 24px;
-    height: 24px;
-    border: solid 1px #ddd;
-    margin-right: 10px;
-}
-*/
 /* CONTENT */
 
 .contentx {
@@ -791,10 +712,10 @@ ul.col-centered {
         display: inline-block;
         padding: 1em;
     }
-    .z-sidebar ul {
-        margin-right: auto;
+    .z-sidebar .col-centered ul {
+        width: 320px;
         margin-left: auto;
-        width: 380px;
+        margin-right: auto;
     }
     .projmenu ul li a.btn-default {
         padding: 8px;
