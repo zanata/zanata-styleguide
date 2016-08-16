@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Zanata - Project: Zanata_Server</title>
+
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <svg style="position: absolute; width: 0; height:0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+            <symbol id="icon-Icon-zanata" viewBox="0 0 32 32">
+                <title>Icon-zanata</title>
+                <path class="path1" fill="#fff" d="M16.27 2.296c-7.53 0-13.651 6.144-13.651 13.696s6.121 13.696 13.651 13.696c7.53 0 13.651-6.144 13.651-13.696s-6.122-13.696-13.651-13.696v0zM16.27 4.643c6.286 0 11.366 5.095 11.366 11.408s-5.079 11.408-11.366 11.408c-6.286 0-11.366-5.095-11.366-11.408s5.079-11.408 11.366-11.408v0z"></path>
+                <path class="path2" fill="#fff" opacity="0.1" d="M24.634 14.383c0 0-2.697 3.309-5.315 7.9l10.134 10.635c0 0-9.505-4.53-19.366-10.1 1.765-3.062 4.113-6.161 4.113-6.161s-4.793-1.952-11.312-5.403c2.83-4.269 6.313-7.803 6.313-7.803s7.181 5.48 15.433 10.93v0z"></path>
+                <path class="path3" fill="#fff" d="M18.44 19.903l10.134 10.635c0 0-9.505-4.53-19.366-10.1 1.765-3.062 4.113-6.161 4.113-6.161s-4.793-1.952-11.312-5.403c2.83-4.269 6.313-7.803 6.313-7.803s7.181 5.48 15.433 10.93c0 0-2.697 3.309-5.315 7.9z"></path>
+            </symbol>
+        </defs>
+    </svg>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="row-height">
+                <div class="proj-sidebar col-height clearfix AutoTags col-xs-12 col-sm-3 col-md-2 col-sm-push-2 col-md-push-1">
+                    <div class="visible-xs hidden-sm--+">
+                        <!--show mobile --><a class="collapsed" href="#expandsidebar" data-toggle="collapse"><h1><i class="fa fa-clipboard"></i>  Zanata Server</h1></a>
+                    </div>
+                    <div class="hidden-xs visible-sm--+">
+                        <h1><i class="fa fa-clipboard"></i>  Zanata Server</h1>
+                    </div>
+                    <div id="expandsidebar" class="collapse">
+                        <p> <i class="fa fa-tags"></i> <a href="">zanata</a>,
+                            <a href="">
+                        translation</a>, <a href="">
+                        software</a>, <a href="">
+                        Red Hat</a>, <a href="">
+                        documentation</a>, <a href="">
+                        open source</a>
+                        </p>
+                        <div class="button-group">
+                            <button class="btn btn-primary"><i class="fa fa-external-link"></i> Export to TMX</button>
+                            <button class="btn btn-primary"><i class="fa fa-plus"></i> Add a new version</button>
+                        </div>
+                        <div class="projmenu">
+                            <ul>
+                                <li>
+                                    <a class="btn btn-default" role="button" href="people.html"><i class="fa fa-users"></i>People<span class="badge">9</span>                                            </a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-default" role="button" href="about.html"><i class="fa fa-info-circle"></i>About</a>
+                                </li>
+
+                                <li>
+                                    <a class="btn btn-default" role="button" href="settings.html"><i class="fa fa-cog"></i>Settings</a>
+                                </li>
+
+                            </ul>
+                            <div class="panel panel-side">
+                                <h4>Project tasks</h4>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" style="width: 9%">
+                                        <span class="sr-only">9% complete</span>
+                                    </div>
+
+                                </div>
+                                <p>Processing message 1803 of 8633</p>
+                                <p>Time remaining: 1 min</p>
+                                <button type="button" class="btn btn-danger btn-sm">Stop</button>
+                            </div>
+                        </div>
+                        <div id="version">
+                            <div style="float:left;">
+                                <h3><i class="fa fa-object-group"></i>VERSION</h3>
+                            </div>
+                            <select class="form-control">
+                                <option value="">master</option>
+                            </select>
+                        </div>
+
+                        <p class="nomarginbottom"><a class="btn btn-primary" role="button" href="vsettings.html">Version settings</a>
+                        </p>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Version tools
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Copy translations</a>
+                                </li>
+                                <li><a href="#">Merge translations</a>
+                                </li>
+                                <li><a href="#">Copy to new version</a>
+                                </li>
+                                <li><a href="#">Download config file</a>
+                                </li>
+                                <li><a href="#">Export version to TMX</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p style="margin-bottom:0;color:#62C876;"><span style="font-size:1.8em;">10%</span> translated</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" style="width: 10%">
+                                <span class="sr-only">10% Complete (success)</span>
+                            </div>
+                        </div>
+                        <div class="projmenu">
+                            <ul>
+                                <li>
+                                    <a class="btn btn-default" role="button" href="languages.html">Languages<span class="badge">12</span></a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-default" role="button" href="docs.html">Documents<span class="badge">16</span></a>
+                                </li>
+                                <li>
+                                    <a class="btn btn-default" role="button" href="groups.html">Groups<span class="badge">2</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel panel-side">
+                            <h4>Version tasks</h4>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" style="width: 12.5%">
+                                    <span class="sr-only">12.5% complete</span>
+                                </div>
+
+                            </div>
+                            <p>Processed document 1 of 8 - 12.50%</p>
+                            <button type="button" class="btn btn-danger btn-sm">Stop</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="contentx clearfix col-height col-xs-12 col-sm-7 col-md-9 col-sm-push-2 col-md-push-1">
+                    <div class="contentx-inner col-xs-12 col-lg-8">
+                        <div class="versions panel panel-default">
+                            <div class="panel-heading">Versions <span class="pull-right">Last updated</span>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+
+                                            <th scope="row"><a href="">v2</a>
+                                            </th>
+                                            <td>28 June 2016</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="">v1</a>
+                                            </th>
+                                            <td>8 June 2016</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="">Draft</a>
+                                            </th>
+                                            <td>18 May 2016</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="activity panel panel-default">
+                            <div class="panel-heading">Recent Activity</div>
+                            <div class="panel-body">
+                                <div class="update">
+                                    <p><i class="fa fa-globe"></i><a href="">Another name</a> translated 200 words
+                                        in <a href="">Moby Dick</a> finishing on "<a href=""><strong>Now, by all odds, the most ancient extant portrait anyways purporting
+to be the...</strong></a>"</p>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i><a href="">12 days ago</a>
+                                        </li>
+                                        <li><i class="fa fa-file"></i><a href="">Moby Dick</a>
+                                        </li>
+                                        <li><i class="fa fa-globe"></i><a href="">French</a>
+                                        </li>
+                                        <li><i class="fa fa-object-group"></i><a href="">v2</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="update">
+                                    <p><i class="fa fa-globe"></i><a href="">You</a> translated 200 words in <a href="">Moby Dick</a>                                        finishing on "<a href=""><strong>Not very far distant Flask's boat was also lying breathlessly still...</strong></a>"</p>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i><a href="">12 days ago</a>
+                                        </li>
+                                        <li><i class="fa fa-file"></i><a href="">Moby Dick</a>
+                                        </li>
+                                        <li><i class="fa fa-globe"></i><a href="">French</a>
+                                        </li>
+                                        <li><i class="fa fa-object-group"></i><a href="">v2</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="update">
+                                    <p><i class="fa fa-eye"></i><a href="">You</a> reviewed 200 words in <a href="">Moby Dick</a>                                        finishing on "<a href=""><strong>That point is this: The
+Sperm Whale is in some cases sufficiently powerful, knowing,...</strong></a>"</p>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i><a href="">12 days ago</a>
+                                        </li>
+                                        <li><i class="fa fa-file"></i><a href="">Moby Dick</a>
+                                        </li>
+                                        <li><i class="fa fa-globe"></i><a href="">French</a>
+                                        </li>
+                                        <li><i class="fa fa-object-group"></i><a href="">v2</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="update">
+                                    <p><i class="fa fa-globe"></i><a href="">Another name</a> translated 200 words
+                                        in <a href="">Moby Dick</a> finishing on "<a href=""><strong>Had you followed Captain Ahab down into his cabin after the...</strong></a>"</p>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i><a href="">12 days ago</a>
+                                        </li>
+                                        <li><i class="fa fa-file"></i><a href="">Moby Dick</a>
+                                        </li>
+                                        <li><i class="fa fa-globe"></i><a href="">French</a>
+                                        </li>
+                                        <li><i class="fa fa-object-group"></i><a href="">v2</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="update">
+                                    <p><i class="fa fa-eye"></i><a href="">You</a> reviewed 200 words in <a href="">Moby Dick</a>                                        finishing on "<a href=""><strong>Nor, in some things, does the common, hereditary experience...</strong></a>"</p>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i><a href="">12 days ago</a>
+                                        </li>
+                                        <li><i class="fa fa-file"></i><a href="">Moby Dick</a>
+                                        </li>
+                                        <li><i class="fa fa-globe"></i><a href="">French</a>
+                                        </li>
+                                        <li><i class="fa fa-object-group"></i><a href="">v2</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="contentx-inner col-xs-12 col-lg-4">
+
+
+                        <div class="about panel panel-default">
+                            <div class="panel-heading">About</div>
+                            <div class="panel-body">
+                                <p>Here is some text that describes the project and directs you to the About page
+                                    where you will
+                                </p>
+                                <p><a href="">Read more...</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="getinvolved">
+                            <p>
+                                <button type="button" class="btn btn-primary btn-lg btn-block">Get involved</button>
+                            </p>
+                        </div>
+                        <div class="maintainers panel panel-default">
+                            <div class="panel-heading">Maintainers</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li class="well well-sm row">
+                                        <div class="col-xs-2 col-lg-3"><img src="grav-1.png" alt="gravatar-1" />
+                                        </div>
+                                        <div class="col-xs-10 col-lg-9"><a href="">Kathryn Gough
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="well well-sm row">
+                                        <div class="col-xs-2 col-lg-3"><img src="grav-2.png" alt="gravatar-2" />
+                                        </div>
+                                        <div class="col-xs-10 col-lg-9"><a href="">Another name
+                                              </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!--      <div class="stats panel panel-default">
+                                <div class="panel-heading">Statistics</div>
+                                <div class="panel-body">
+
+                                    <h4><i class="fa fa-clock-o"></i>Project activity this month</h4>
+                                    <img src="sparkline.png" alt="sparkline" />
+
+                                    <div id="activestat">
+                                        <p>Last active: 3 days ago</p>
+                                    </div>
+
+                                    <h4><i class="fa fa-star"></i>Top contributors:</h4>
+                                    <table class="table table-striped">
+                                        <tr>
+                                            <th>Rank</th>
+                                            <th>Name</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td><img src="grav-2.png" alt="gravatar-2" /> Another name</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td><img src="grav-1.png" alt="gravatar-1" /> Kathryn Gough</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td><img src="grav-3.png" alt="gravatar-3" /> Another name</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td><img src="grav-4.png" alt="gravatar-4" /> Another name</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td><img src="grav-5.png" alt="gravatar-5" /> Another name</td>
+                                        </tr>
+
+                                    </table>
+                                </div>
+                            </div>-->
+                    </div>
+                </div>
+
+                <div class="z-sidebar clearfix col-height col-xs-12 col-sm-2 col-md-1 col-sm-pull-10 col-md-pull-11">
+                    <div class="col-centered">
+                        <ul>
+                            <li class="visible-sm visible-md visible-lg logo">
+                                <a href="">
+                                    <svg class="icon icon-Icon-zanata">
+                                        <use xlink:href="#icon-Icon-zanata"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="visible-sm visible-md visible-lg"><a href=""><i class="fa fa-search"></i>
+                                    <br /><span>Explore</span></a>
+                            </li>
+                            <li><a href=""><i class="fa fa-tachometer"></i>
+                                    <br /><span>Dashboard</span></a>
+                            </li>
+                            <li><a href=""><i class="fa fa-user"></i>
+                                    <br /><span>Profile</span></a>
+                            </li>
+                            <li class="visible-sm visible-md visible-lg"><a href=""><i class="fa fa-book"></i>
+                                    <br /><span>Glossary</span></a>
+                            </li>
+                            <li class="visible-sm visible-md visible-lg"><a href=""><i class="fa fa-globe"></i>
+                                    <br /><span>Languages</span></a>
+                            </li>
+                            <li class="visible-sm visible-md visible-lg"><a href=""><i class="fa fa-cog"></i>
+                                    <br /><span>Settings</span></a>
+                            </li>
+                            <li class="visible-sm visible-md visible-lg"><a href=""><i class="fa fa-cogs"></i>
+                                    <br /><span>Admin</span></a>
+                            </li>
+                            <li><a href=""><i class="fa fa-sign-out"></i>
+                                    <br /><span>Log Out</span></a>
+                            </li>
+                            <li><a href=""><i class="fa fa-ellipsis-h"></i>
+                                    <br /><span>More</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+        window.jQuery || document.write(
+            '<script src="assets/js/vendor/jquery.min.js"><\/script>'
+        )
+    </script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
