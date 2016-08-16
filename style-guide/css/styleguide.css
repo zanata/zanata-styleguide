@@ -195,22 +195,22 @@ ul.scroll-menu {
  Colors
 ---------------------------------------------------------------------------- */
 .sg-brand-primary .sg-color-swatch {
-  background: #bbbbbb;
+  background: #03A6D7;
 }
 .sg-gray-lighter .sg-color-swatch {
-  background: #dddddd;
+  background: #546677;
 }
 .sg-gray-light .sg-color-swatch {
-  background: #808080;
+  background: #629BAC;
 }
 .sg-gray .sg-color-swatch {
-  background: #555555;
+  background: #FCFCFC;
 }
 .sg-gray-dark .sg-color-swatch {
   background: #333333;
 }
 .sg-gray-darker .sg-color-swatch {
-  background: #222222;
+  background: #dddddd;
 }
 .sg-brand-success .sg-color-swatch {
   background: #469408;
