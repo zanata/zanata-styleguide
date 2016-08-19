@@ -2,7 +2,7 @@
 
 STYLE Guide
 
-- Uses Style-Guide-Boilerplate-Bootstrap-Edition
+- Uses (Style-Guide-Boilerplate-Bootstrap-Edition)[https://github.com/kemie/Style-Guide-Boilerplate-Bootstrap-Edition]
 
 FOUNDATION:
 - [x] Colours
