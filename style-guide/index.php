@@ -22,6 +22,9 @@
         <ul class="dropdown-menu  scroll-menu sg-sect">
           <?php listElementsAsOptions('docs'); ?>
           <li role="presentation" class="divider"></li>
+          <li role="presentation" class="dropdown-header">Foundation</li>
+          <?php listMarkupAsOptions('foundation'); ?>
+          <li role="presentation" class="divider"></li>
           <li role="presentation" class="dropdown-header">Base Styles</li>
           <?php listMarkupAsOptions('base'); ?>
           <li role="presentation" class="divider"></li>
@@ -37,6 +40,9 @@
 <div class="sg-body sg-container container">
 
 <div class="row sg-base-styles">
+  <h1 class="page-header">Foundation</h1>
+  <?php showMarkup('foundation'); ?>
+  </div><!--/.sg-base-styles-->
   <h1 class="page-header">Base Styles</h1>
   <?php showMarkup('base'); ?>
   </div><!--/.sg-base-styles-->
