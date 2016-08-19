@@ -213,16 +213,19 @@ ul.scroll-menu {
   background: #dddddd;
 }
 .sg-brand-success .sg-color-swatch {
-  background: #469408;
+  background: #62C876;
 }
 .sg-brand-info .sg-color-swatch {
-  background: #029acf;
+  background: #4E9FDD;
+}
+.sg-brand-unsure .sg-color-swatch {
+  background: #E9DD00;
 }
 .sg-brand-warning .sg-color-swatch {
-  background: #9b479f;
+  background: #FFA800;
 }
 .sg-brand-danger .sg-color-swatch {
-  background: #d9831f;
+  background: #FF3B3D;
 }
 /* Fonts
 ---------------------------------------------------------------------------- */
