@@ -2,38 +2,38 @@
 
 STYLE Guide
 
-- Uses Style-Guide-Boilerplate-Bootstrap-Edition
+- Uses [Style-Guide-Boilerplate-Bootstrap-Edition](https://github.com/kemie/Style-Guide-Boilerplate-Bootstrap-Edition)
 
 FOUNDATION:
-- Colours
-- Typography
-- Grid
+- [x] Colours
+- [x] Typography
+- [x] Grid
 
 BASE STYLES:
-- Badges
-- Buttons
-- Code
-- Definition lists
-- Form controls  
-- Headings
-- Images
-- Labels
-- Lists   
-- Progress bars
-- Tables
-- Text elements
-- Well
+- [ ] Badges
+- [ ] Buttons
+- [x] Code
+- [ ] Definition lists
+- [ ] Form controls  
+- [x] Headings
+- [ ] ~~Images~~ Icons
+- [ ] Labels
+- [x] Lists   
+- [ ] Progress bars
+- [x] Tables
+- [ ] Text elements
+- [ ] Well
 
 PATTERNS:
-- Alerts
-- Breadcrumbs
-- Buttons Advanced
-- Dropdowns
-- Forms
-- List Groups
-- Media Object
-- Navs
-- Pager
-- Pagination
-- Panels
-- Thumbnails   
+- [ ] Alerts
+- [ ] Breadcrumbs
+- [ ] Buttons Advanced
+- [ ] Dropdowns
+- [ ] Forms
+- [x] List Groups
+- [x] Media Object
+- [ ] Navs
+- [x] Pager
+- [x] Pagination
+- [ ] Panels
+- [ ] Thumbnails   
