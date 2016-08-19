@@ -20,10 +20,9 @@
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown active"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Select an element: <b class="caret"></b></a>
         <ul class="dropdown-menu  scroll-menu sg-sect">
-          <?php listElementsAsOptions('docs'); ?>
-          <li role="presentation" class="divider"></li>
           <?php listElementsAsOptions('foundation'); ?>
           <?php listMarkupAsOptions('foundation'); ?>
+                  <li role="presentation" class="divider"></li>
           <li role="presentation" class="dropdown-header">Base Styles</li>
           <?php listMarkupAsOptions('base'); ?>
           <li role="presentation" class="divider"></li>
