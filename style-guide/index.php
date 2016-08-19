@@ -21,7 +21,6 @@
       <li class="dropdown active"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Select an element: <b class="caret"></b></a>
         <ul class="dropdown-menu  scroll-menu sg-sect">
           <?php listElementsAsOptions('docs'); ?>
-          <?php listElementsAsOptions('foundation'); ?>
           <li role="presentation" class="divider"></li>
           <li role="presentation" class="dropdown-header">Base Styles</li>
           <?php listMarkupAsOptions('base'); ?>
@@ -36,16 +35,6 @@
 <!--/.sg-header-->
 
 <div class="sg-body sg-container container">
-<div class="row">
-  <h1 class="page-header">Style Guide Documentation</h1>
-  <?php showDocs(); ?>
-</div>
-<!--/.row-->
-<div class="row">
-  <h1 class="page-header">Foundation</h1>
-  <?php showFoundation(); ?>
-</div>
-<!--/.row-->
 
 <div class="row sg-base-styles">
   <h1 class="page-header">Base Styles</h1>
