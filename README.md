@@ -13,13 +13,13 @@ BASE STYLES:
 - [ ] Badges
 - [ ] Buttons
 - [x] Code
-- [ ] Definition lists
+- [x] Definition lists
 - [ ] Form controls  
 - [x] Headings
 - [ ] ~~Images~~ Icons
 - [ ] Labels
 - [x] Lists   
-- [ ] Progress bars
+- [x] Progress bars
 - [x] Tables
 - [ ] Text elements
 - [ ] Well
@@ -28,7 +28,7 @@ PATTERNS:
 - [ ] Alerts
 - [ ] Breadcrumbs
 - [ ] Buttons Advanced
-- [ ] Dropdowns
+- [x] Dropdowns
 - [ ] Forms
 - [x] List Groups
 - [x] Media Object
