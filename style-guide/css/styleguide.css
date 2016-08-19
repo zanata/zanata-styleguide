@@ -141,9 +141,8 @@ ul.scroll-menu {
 /* Sections
 ---------------------------------------------------------------------------- */
 .sg-section {
-  margin-bottom: 32px;
-  /* For older browsers */
-  margin-bottom: 3rem;
+  margin-top:20px;
+  margin-bottom:10px;
   overflow: hidden;
 }
 .sg-anchor {
@@ -245,8 +244,8 @@ ul.scroll-menu {
   padding: .5em 0;
 }
 .show-grid div {
-  background-color: #dddddd;
-  border: 1px solid #808080;
+  background-color: #fefefe;
+  border: 1px solid #ddd;
   padding: 0.5em;
 }
 /* Markup
