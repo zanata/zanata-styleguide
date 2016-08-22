@@ -302,3 +302,19 @@ color: #FF3B3D;
 .has-error .form-control-feedback {
     color: #FF3B3D;
 }
+
+.label-success {
+    background-color: #50A360;
+}
+
+.label-info {
+    background-color: #4E9FDD;
+}
+
+.label-warning {
+    background-color: #FFA800;
+}
+
+.label-danger {
+    background-color: #FF3B3D;
+}
