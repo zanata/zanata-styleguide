@@ -10,7 +10,7 @@ FOUNDATION:
 - [x] Grid
 
 BASE STYLES:
-- [ ] Badges
+- [x] Badges
 - [ ] Buttons
 - [x] Code
 - [x] Definition lists
@@ -32,7 +32,7 @@ PATTERNS:
 - [ ] Forms
 - [x] List Groups
 - [x] Media Object
-- [ ] Navs
+- [x] Navs
 - [x] Pager
 - [x] Pagination
 - [ ] Panels
