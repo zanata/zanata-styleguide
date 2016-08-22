@@ -224,3 +224,14 @@ table img.avatar {
   background-color: #03A6D7;
 
 }
+
+
+.btn-success:active:hover, .btn-success.active:hover, .open > .dropdown-toggle.btn-success:hover, .btn-success:active:focus, .btn-success.active:focus, .open > .dropdown-toggle.btn-success:focus, .btn-success:active.focus, .btn-success.active.focus, .open > .dropdown-toggle.btn-success.focus {
+    background-color: #398439;
+    border-color: #255625;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
