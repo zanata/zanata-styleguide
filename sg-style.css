@@ -215,3 +215,12 @@ table img.avatar {
 .btn-default:hover i {
     color: #03A6D7;
 }
+
+ .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: #546677;
+}
+
+.nav-pills > li.active > a {
+  background-color: #03A6D7;
+
+}
