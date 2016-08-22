@@ -11,10 +11,10 @@ FOUNDATION:
 
 BASE STYLES:
 - [x] Badges
-- [ ] Buttons
+- [x] Buttons
 - [x] Code
 - [x] Definition lists
-- [ ] Form controls  
+- [x] Form controls  
 - [x] Headings
 - [ ] ~~Images~~ Icons
 - [ ] Labels
@@ -22,7 +22,7 @@ BASE STYLES:
 - [x] Progress bars
 - [x] Tables
 - [ ] Text elements
-- [ ] Well
+- [x] Well
 
 PATTERNS:
 - [ ] Alerts
