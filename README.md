@@ -16,11 +16,11 @@ BASE STYLES:
 - [x] Definition lists
 - [x] Form controls  
 - [x] Headings
-- [ ] ~~Images~~ Icons
-- [ ] Labels
+- [x] Icons
+- [x] Labels
 - [x] Lists   
 - [x] Progress bars
-- [x] Tables
+- [ ] Tables
 - [ ] Text elements
 - [x] Well
 
