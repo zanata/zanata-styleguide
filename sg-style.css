@@ -226,12 +226,79 @@ table img.avatar {
 }
 
 
-.btn-success:active:hover, .btn-success.active:hover, .open > .dropdown-toggle.btn-success:hover, .btn-success:active:focus, .btn-success.active:focus, .open > .dropdown-toggle.btn-success:focus, .btn-success:active.focus, .btn-success.active.focus, .open > .dropdown-toggle.btn-success.focus {
-    background-color: #398439;
-    border-color: #255625;
+.btn-success:hover, .btn-success:active {
+    background-color: #50A360;
+    border-color: #50A360;
 }
 
 .btn-success {
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+    background-color: #62C876;
+    border-color: #50A360;
+}
+
+
+
+.btn-info:hover, .btn-info:active {
+    background-color: #4995CF;
+    border-color: #4995CF;
+}
+
+.btn-info {
+    background-color: #4E9FDD;
+    border-color: #4995CF;
+}
+
+
+
+.btn-danger:hover, .btn-danger:active {
+    background-color: #CF3031;
+    border-color: #CF3031;
+}
+
+.btn-danger {
+    background-color: #FF3B3D;
+    border-color: #CF3031;
+}
+
+
+
+.btn-warning:hover, .btn-warning:active {
+    background-color: #CF8800;
+    border-color: #CF8800;
+}
+
+.btn-warning {
+    background-color: #FFA800;
+    border-color: #CF8800;
+}
+
+.has-success .control-label {
+color: #50A360;
+}
+.has-success .form-control {
+  border-color: #50A360;
+}
+.has-success .form-control-feedback {
+    color: #50A360;
+}
+
+.has-warning .control-label {
+color: #FFA800;
+}
+.has-warning .form-control {
+  border-color: #FFA800;
+}
+.has-warning .form-control-feedback {
+    color: #FFA800;
+}
+
+
+.has-error .control-label {
+color: #FF3B3D;
+}
+.has-error .form-control {
+  border-color: #FF3B3D;
+}
+.has-error .form-control-feedback {
+    color: #FF3B3D;
 }
