@@ -304,7 +304,7 @@ color: #FF3B3D;
 }
 
 .label-success {
-    background-color: #50A360;
+    background-color: #62C876;
 }
 
 .label-info {
@@ -317,4 +317,41 @@ color: #FF3B3D;
 
 .label-danger {
     background-color: #FF3B3D;
+}
+
+
+.table > tbody > tr.active > td {
+  background-color: #fcfcfc;
+}
+
+.table-hover > tbody > tr:hover, .table-hover > tbody > tr.active:hover > td {
+    background-color: #fafafa;
+}
+
+.list-group-item-success, .list-group-item-info, .list-group-item-warning, .list-group-item-danger {
+  color:#333;
+}
+.text-primary {
+    color: #4995CF;
+}
+
+.text-warning {
+    color: #FFA800;
+}
+
+.text-danger {
+    color: #FF3B3D;
+}
+
+.text-success {
+    color: #62C876;
+}
+
+.text-info {
+    color: #03A6D7;
+}
+
+.btn-default:hover, .pager li > a:hover, .pager li > a:focus, .pagination > li > a:hover, a.list-group-item:hover, button.list-group-item:hover,
+a.list-group-item:focus, button.list-group-item:focus, .nav > li > a:hover, .nav > li > a:focus {
+    background-color: #fafafa;
 }
