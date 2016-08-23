@@ -20,8 +20,8 @@ BASE STYLES:
 - [x] Labels
 - [x] Lists   
 - [x] Progress bars
-- [ ] Tables
-- [ ] Text elements
+- [x] Tables
+- [x] Text elements
 - [x] Well
 
 PATTERNS:
@@ -29,7 +29,7 @@ PATTERNS:
 - [ ] Breadcrumbs
 - [ ] Buttons Advanced
 - [x] Dropdowns
-- [ ] Forms
+- [x] Forms
 - [x] List Groups
 - [x] Media Object
 - [x] Navs
