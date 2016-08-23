@@ -25,8 +25,8 @@ BASE STYLES:
 - [x] Well
 
 PATTERNS:
-- [ ] Alerts
-- [ ] Breadcrumbs
+- [x] Alerts
+- [x] Breadcrumbs
 - [ ] Buttons Advanced
 - [x] Dropdowns
 - [x] Forms
