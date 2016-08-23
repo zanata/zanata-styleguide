@@ -15,7 +15,7 @@ margin-right: 0;
 
 .btn-group > .btn + .dropdown-toggle {
     padding-right: 4px;
-    padding-left: 12px;
+    padding-left: 14px;
 }
 
 
@@ -354,4 +354,43 @@ color: #FF3B3D;
 .btn-default:hover, .pager li > a:hover, .pager li > a:focus, .pagination > li > a:hover, a.list-group-item:hover, button.list-group-item:hover,
 a.list-group-item:focus, button.list-group-item:focus, .nav > li > a:hover, .nav > li > a:focus {
     background-color: #fafafa;
+}
+
+.alert-warning, .alert-error, .alert-success, .alert-info {
+    color: #fff;
+}
+
+.alert-info {
+  background-color: #03A6D7;
+}
+
+.alert-warning {
+  background-color: #FFA800;
+
+}
+
+.alert-success {
+  background-color: #62C876;
+
+}
+
+.alert-error {
+  background-color: #FF3B3D;
+}
+
+.breadcrumb {
+  background-color: #FCFCFC;
+}
+
+.breadcrumb > li + li:before {
+    content: "\f105";
+    font-family: FontAwesome;
+}
+
+button.btn.btn-primary.dropdown-toggle > span.caret,
+button.btn.btn-success.dropdown-toggle > span.caret,
+button.btn.btn-info.dropdown-toggle > span.caret,
+button.btn.btn-warning.dropdown-toggle > span.caret,
+button.btn.btn-danger.dropdown-toggle > span.caret {
+  color:#fff;
 }
