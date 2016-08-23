@@ -27,7 +27,7 @@ BASE STYLES:
 PATTERNS:
 - [x] Alerts
 - [x] Breadcrumbs
-- [ ] Buttons Advanced
+- [x] Buttons Advanced
 - [x] Dropdowns
 - [x] Forms
 - [x] List Groups
