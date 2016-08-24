@@ -35,4 +35,4 @@ PATTERNS:
 - [x] Navs
 - [x] Pager
 - [x] Pagination
-- [ ] Panels
+- [x] Panels
