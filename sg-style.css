@@ -394,3 +394,64 @@ button.btn.btn-warning.dropdown-toggle > span.caret,
 button.btn.btn-danger.dropdown-toggle > span.caret {
   color:#fff;
 }
+
+
+
+.panel-primary {
+    border-color: #546677;
+}
+
+.panel-success {
+    border-color: #62C876;
+}
+
+.panel-info {
+    border-color: #4E9FDD;
+}
+
+.panel-warning {
+    border-color: #FFA800;
+}
+
+.panel-danger  {
+    border-color: #FF3B3D;
+}
+
+.panel-primary > .panel-heading {
+  border-color: #546677;
+}
+
+.panel-success > .panel-heading {
+  border-color: #62C876;
+}
+
+.panel-info > .panel-heading {
+  border-color: #4E9FDD;
+}
+
+.panel-warning > .panel-heading {
+  border-color: #FFA800;
+}
+.panel-danger > .panel-heading {
+  border-color: #FF3B3D;
+}
+
+.panel-primary > .panel-heading h3 {
+  color:#546677;
+}
+
+.panel-info > .panel-heading h3 {
+  color: #4E9FDD;
+}
+
+.panel-success > .panel-heading h3 {
+  color:#62C876;
+}
+
+.panel-warning > .panel-heading h3 {
+  color:#FFA800;
+}
+
+.panel-danger > .panel-heading h3 {
+  color:#FF3B3D;
+}
