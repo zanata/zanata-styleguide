@@ -19,11 +19,19 @@ color:#ccc;
 }
 
 /* ------------- */
-
+.form-control{
+  height: auto;
+}
 .btn-primary {
     color: #fff;
     background-color: #546677;
     border-color: #ccc;
+}
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
 }
 
 .label-default {
