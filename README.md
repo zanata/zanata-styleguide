@@ -34,4 +34,3 @@ PATTERNS:
 - Pager
 - Pagination
 - Panels
-- Thumbnails   
