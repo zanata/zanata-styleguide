@@ -38,18 +38,18 @@
 <div class="sg-body sg-container container">
 
   <div class="row">
-    <h1 class="page-header">Foundation</h1>
+    <h1 class="page-header titles">Foundation</h1>
     <?php showFoundation(); ?>
   </div>
 
 
 <div class="row sg-base-styles">
   <?php showMarkup('foundation'); ?>
-  <h1 class="page-header">Base Styles</h1>
+  <h1 class="page-header titles">Base Styles</h1>
   <?php showMarkup('base'); ?>
   </div><!--/.sg-base-styles-->
   <div class="sg-pattern-styles">
-    <h1 class="page-header">Patterns<small> - Design and mark-up patterns unique to your site.</small></h1>
+    <h1 class="page-header titles">Patterns<small> - Design and mark-up patterns unique to your site.</small></h1>
     <?php showMarkup('patterns'); ?>
   </div>
   <!--/.sg-pattern-styles-->
