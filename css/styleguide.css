@@ -397,3 +397,23 @@ pre {
   _word-wrap: break-word;
 }
 /* End IE 6 Fixes */
+
+
+.sg-display, .sg-display .row {
+margin-left:0;
+margin-right: 0;
+}
+
+.page-header.titles {
+background-color:#333;
+color:#fff;
+padding: 8px;
+}
+.page-header.titles small {
+color:#ccc;
+}
+
+.nopaddingmargin {
+  padding:0 !important;
+  margin:0 0;
+}
