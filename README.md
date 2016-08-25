@@ -1,6 +1,4 @@
-# z-bs3
-
-STYLE Guide
+# zanata styleguide
 
 - Uses Style-Guide-Boilerplate-Bootstrap-Edition
 
