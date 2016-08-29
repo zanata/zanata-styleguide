@@ -13,6 +13,10 @@ span.caret {
   color: #546675;
 }
 
+a {
+  color: #546677;
+}
+
 a:link, a:visited {
   color: #546677;
 }
@@ -306,7 +310,7 @@ table img.avatar {
 }
 
 .text-primary {
-  color: #4995cf;
+  color:#546677;
 }
 
 .text-warning {
@@ -455,6 +459,10 @@ button.btn.btn-danger.dropdown-toggle > span.caret {
 
 .label-default {
   background-color: #546677;
+}
+
+.label-primary {
+  background-color:#03a6d7;
 }
 
 .btn-group > .btn + .dropdown-toggle {
