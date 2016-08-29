@@ -285,7 +285,7 @@ table img.avatar {
 }
 
 .label-primary {
-  background-color:#03a6d7;
+  background-color:#03a6d7 !important;
 }
 
 .label-success {
