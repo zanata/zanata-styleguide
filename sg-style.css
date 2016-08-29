@@ -280,6 +280,14 @@ table img.avatar {
   color: #ff3b3d;
 }
 
+.label-default {
+  background-color: #546677;
+}
+
+.label-primary {
+  background-color:#03a6d7;
+}
+
 .label-success {
   background-color: #62c876;
 }
@@ -455,14 +463,6 @@ button.btn.btn-danger.dropdown-toggle > span.caret {
   color: #333;
   border-color: #ccc;
   background-color: #fff;
-}
-
-.label-default {
-  background-color: #546677;
-}
-
-.label-primary {
-  background-color:#03a6d7;
 }
 
 .btn-group > .btn + .dropdown-toggle {
