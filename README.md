@@ -1,7 +1,7 @@
 # Zanata Style-guide
 *Last updated 1 September 2016*
 
-The Bootstrap Zanata Style-guide can be found at [http://styleguide-zanata.itos.redhat.com/](http://styleguide-zanata.itos.redhat.com/)
+The Bootstrap Zanata Style-guide can be found at [http://bootstrap-zanata-styleguide.int.open.paas.redhat.com/](http://bootstrap-zanata-styleguide.int.open.paas.redhat.com/)
 
 - Uses [Style-Guide-Boilerplate-Bootstrap-Edition](https://github.com/kemie/Style-Guide-Boilerplate-Bootstrap-Edition)
 
